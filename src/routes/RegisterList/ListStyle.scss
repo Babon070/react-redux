@@ -1,6 +1,13 @@
+.list__info {
+  width: 350px;
+  height: 250px;
 
-
-
-.list__desc{
+  .list__desc {
     font-size: 25px;
+    margin: 15px 0;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }

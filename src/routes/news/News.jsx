@@ -1,7 +1,7 @@
 import React from "react";
 import Container from "../../utilis/Container";
 import campus from "../../asset/campus_univer.jpg";
-import './News.scss'
+import "./News.scss";
 
 const News = () => {
   return (

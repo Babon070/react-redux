@@ -1,0 +1,56 @@
+.form {
+  background-image: url("../../asset/cv.jpg");
+  height: 93vh;
+
+  .form-wrap {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+  }
+}
+
+.form__statement {
+  width: 650px;
+  height: 450px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  padding: 1rem;
+
+  .form-head {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: #011f40;
+  }
+
+  input {
+    width: 100%;
+    padding: 15px 0;
+    margin: 5px 0;
+    outline: none;
+    border-radius: 10px;
+    text-indent: 10px;
+    border: none;
+    font-size: 18px;
+  }
+
+  .form-select {
+    display: flex;
+    align-items: center;
+
+    select {
+      border-radius: 5px;
+    }
+  }
+
+  .formBtn {
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 0.5rem 1.6rem;
+    border: none;
+    background-color: #011f40;
+    color: #fff;
+  }
+}

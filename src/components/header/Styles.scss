@@ -1,26 +1,26 @@
-header{
-    background-color: #011f40;
-    height: 72px;
-    display: flex;
-    align-items: center;
+header {
+  background-color: #011f40;
+  height: 72px;
+  display: flex;
+  align-items: center;
 }
 
-.header__wrap{
+.header__wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &--logo {
+    color: #fff;
+    font-size: 32px;
+  }
+
+  &--nav {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    gap: 40px;
 
-    &--logo{
-        color: #fff;
-        font-size: 32px;
+    a {
+      color: #fff;
     }
-
-    &--nav{
-        display: flex;
-        gap: 40px;
-
-        a{
-            color: #fff;
-        }
-    }
+  }
 }

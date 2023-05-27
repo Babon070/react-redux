@@ -1,18 +1,18 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
 import Home from "./home/Home";
-import News from './news/News';
-import Info from './info/Info';
-import Form from  './form/Form';
-import List from './RegisterList/List'
+import News from "./news/News";
+import Info from "./info/Info";
+import Form from "./form/Form";
+import List from "./RegisterList/List";
 
 const Routes = () => {
   return (
     <Switch>
       <Route exact path="/">
-        <Home/>
+        <Home />
       </Route>
-      <Route  path="/news">
+      <Route path="/news">
         <News />
       </Route>
       <Route path="/info">
@@ -21,8 +21,8 @@ const Routes = () => {
       <Route path="/form">
         <Form />
       </Route>
-      <Route path='/list'>
-        <List/>
+      <Route path="/list">
+        <List />
       </Route>
     </Switch>
   );

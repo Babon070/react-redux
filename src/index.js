@@ -1,17 +1,16 @@
-import {React, lazy} from "react";
+import { React, lazy } from "react";
 import ReactDOM from "react-dom/client";
 import "./index.scss";
 import { Provider } from "react-redux";
 import { store } from "./redux/store/store";
 import { BrowserRouter } from "react-router-dom";
-const App = lazy(()=> import ("./App"));
-
+const App = lazy(() => import("./App"));
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <Provider store={store}>
-        <App />
+      <App />
     </Provider>
   </BrowserRouter>
 );
